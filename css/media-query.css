@@ -1,0 +1,1464 @@
+/** PRINCIPALES MEDIDAS MEDIA QUERY**
+<<<<<<<<<from 360px to 414px>>>>>>>>>>>>>*/
+@media screen and (max-width: 375px) {
+    html #b-about,
+    html #b-contact {
+      scroll-behavior: smooth;
+    }
+  
+    /*Video element*/
+    .fullscreen-video-wrap video {
+      /*this configuration allows to auto-adjust video positions*/
+      left: 49.9%;
+      min-height: 100%;
+      min-width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+    }
+  .cover-logo{
+    width: 15rem;
+    height: auto;
+  }
+    .container {
+      overflow-x: hidden;
+    }
+
+    .cover-text{
+      display: none;
+    }
+    .cover-mobile{
+      min-width: 90%;
+    }
+  
+    .top-buttons a {
+      font-size: 1.2rem;
+      width: 11rem;
+      margin: 5% 0 ;
+    }
+  
+    /*menu*/
+    .main_menu {
+      display: none;
+    }
+  
+    .toggle {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 20px;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      color: #ffffff;
+    }
+
+    iframe{
+      max-width:300px ;
+      height: 170px;
+    }
+  
+  
+    #times {
+      font-size: 40px;
+      position: relative;
+      right: 25px;
+      top: 15px;
+    }
+  
+    .mobile_menu1 li,
+    .hamburguer-btn {
+      width: 100%;
+      list-style-type: none;
+      font-size: 40px;
+    }
+  
+    .hamburguer-btn .fa-bars i,
+    .hambueguer-btn .fa-times i {
+      position: relative;
+      right: 25px;
+      top: 15px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 40px;
+    }
+  
+    .mobile_menu1 a li {
+      text-align: center;
+      display: none;
+      font-size: 1.2rem;
+      margin: 0.1rem;
+    }
+  
+    .mobile_menu1 a li.active {
+      display: block;
+    }
+  
+    /*sections*/
+    .title {
+      font-size: 3rem;
+      margin: 0 0 1rem 0;
+    }
+  
+    .my_description p {
+      font-size: 1rem;
+      padding: 1.5rem;
+      margin: 0;
+    }
+  
+    #contact_me {
+      font-size: 1rem;
+      width: 130px;
+    }
+
+.media{
+  display: none;
+}
+
+.white2{
+  display: none;
+} 
+
+.white2-mobile{
+  display: block;
+  color: #fff;
+  height: 300px;
+} 
+.white-contact {
+display: none;}
+
+.white-mobile {
+  display: block;
+  color: #fff;
+  min-height: 350px;
+  padding: 2rem 0;
+  margin: 2rem 0;}
+
+.white {
+  max-height: 600px;
+  margin: 1rem 0 1rem 0;
+padding:  0.5rem 0;
+}
+
+.media-icons{
+  font-size: 4rem;
+  margin: auto;
+}
+
+#Instant{
+  max-width: 120px;
+  height: auto;
+}
+
+#footer p {
+  font-size: 0.7rem;
+  font-family: 'Arial', cursive;
+}
+
+#Enviar{
+  font-size: 1rem;
+  width: 150px;
+}
+.banner{
+  display: none;
+}
+
+  }
+  /*<<<<<<<<<from 376px to 414px>>>>>>>>>>>>>*/
+  @media screen and (min-width: 376px) and (max-width: 414px) {
+    html #b-about,
+    html #b-contact {
+      scroll-behavior: smooth;
+    }
+  
+    /*Video element*/
+    .fullscreen-video-wrap video {
+      /*this configuration allows to auto-adjust video positions*/
+      left: 49.9%;
+      min-height: 100%;
+      min-width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+    }
+  .cover-logo{
+    width: 15rem;
+    height: auto;
+  }
+    .container {
+      overflow-x: hidden;
+    }
+
+    .cover-text{
+      display: none;
+    }
+    .cover-mobile{
+      min-width: 90%;
+    }
+  
+    .top-buttons a {
+      font-size: 1.2rem;
+      width: 11rem;
+      margin: 5% 0 ;
+    }
+  
+    /*menu*/
+    .main_menu {
+      display: none;
+    }
+  
+    .toggle {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 20px;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      color: #ffffff;
+    }
+
+    iframe{
+      max-width:300px ;
+      height: 170px;
+    }
+  
+  
+    #times {
+      font-size: 40px;
+      position: relative;
+      right: 25px;
+      top: 15px;
+    }
+  
+    .mobile_menu1 li,
+    .hamburguer-btn {
+      width: 100%;
+      list-style-type: none;
+      font-size: 40px;
+    }
+  
+    .hamburguer-btn .fa-bars i,
+    .hambueguer-btn .fa-times i {
+      position: relative;
+      right: 25px;
+      top: 15px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 40px;
+    }
+  
+    .mobile_menu1 a li {
+      text-align: center;
+      display: none;
+      font-size: 1.2rem;
+      margin: 0.1rem;
+    }
+  
+    .mobile_menu1 a li.active {
+      display: block;
+    }
+  
+    /*sections*/
+    .title {
+      font-size: 3rem;
+      margin: 0 0 1rem 0;
+    }
+  
+    .my_description p {
+      font-size: 1rem;
+      padding: 1.5rem;
+      margin: 0;
+    }
+  
+    #contact_me {
+      font-size: 1rem;
+      width: 130px;
+    }
+
+.media{
+  display: none;
+}
+
+.white2{
+  display: none;
+} 
+
+.white2-mobile{
+  display: block;
+  color: #fff;
+  height: 300px;
+} 
+.white-contact {
+display: none;}
+
+.white-mobile {
+  display: block;
+  color: #fff;
+  min-height: 350px;
+  padding: 1rem 0;
+  margin: 1rem 0;}
+
+.white {
+  max-height: 650px;
+  margin: 1rem 0 1rem 0;
+padding:  0.5rem 0;
+}
+
+.media-icons{
+  font-size: 4rem;
+  margin: auto;
+}
+
+#Instant{
+  max-width: 120px;
+  height: auto;
+}
+
+#footer p {
+  font-size: 0.7rem;
+  font-family: 'Arial', cursive;
+}
+
+#Enviar{
+  font-size: 1rem;
+  width: 150px;
+}
+.banner{
+  display: none;
+}
+  }
+  
+  /*<<<<<<<<<415px-478px>>>>>>>>>*/
+  @media screen and (min-width: 415px) and (max-width: 478px) {
+    html #b-about,
+    html #b-contact {
+      scroll-behavior: smooth;
+    }
+  
+    /*Video element*/
+    .fullscreen-video-wrap video {
+      /*this configuration allows to auto-adjust video positions*/
+      left: 49.9%;
+      min-height: 100%;
+      min-width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+    }
+  .cover-logo{
+    width: 15rem;
+    height: auto;
+  }
+    .container {
+      overflow-x: hidden;
+    }
+
+    .cover-text{
+      display: none;
+    }
+    .cover-mobile{
+      min-width: 90%;
+    }
+  
+    .top-buttons a {
+      font-size: 1.2rem;
+      width: 11rem;
+      margin: 5% 0 ;
+    }
+  
+    /*menu*/
+    .main_menu {
+      display: none;
+    }
+  
+    .toggle {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 20px;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      color: #ffffff;
+    }
+
+    iframe{
+      max-width:300px ;
+      height: 170px;
+    }
+  
+  
+    #times {
+      font-size: 40px;
+      position: relative;
+      right: 25px;
+      top: 15px;
+    }
+  
+    .mobile_menu1 li,
+    .hamburguer-btn {
+      width: 100%;
+      list-style-type: none;
+      font-size: 40px;
+    }
+  
+    .hamburguer-btn .fa-bars i,
+    .hambueguer-btn .fa-times i {
+      position: relative;
+      right: 25px;
+      top: 15px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 40px;
+    }
+  
+    .mobile_menu1 a li {
+      text-align: center;
+      display: none;
+      font-size: 1.2rem;
+      margin: 0.1rem;
+    }
+  
+    .mobile_menu1 a li.active {
+      display: block;
+    }
+  
+    /*sections*/
+    .title {
+      font-size: 3rem;
+      margin: 0 0 1rem 0;
+    }
+  
+    .my_description p {
+      font-size: 1rem;
+      padding: 1.5rem;
+      margin: 0;
+    }
+  
+    #contact_me {
+      font-size: 1rem;
+      width: 130px;
+    }
+
+.media{
+  display: none;
+}
+
+.white2{
+  display: none;
+} 
+
+.white2-mobile{
+  display: block;
+  color: #fff;
+  height: 300px;
+} 
+.white-contact {
+display: none;}
+
+.white-mobile {
+  display: block;
+  color: #fff;
+  min-height: 350px;
+  padding: 1rem 0;
+  margin: 1rem 0;}
+
+.white {
+  max-height: 650px;
+  margin: 1rem 0 1rem 0;
+padding:  0.5rem 0;
+}
+
+.media-icons{
+  font-size: 4rem;
+  margin: auto;
+}
+
+#Instant{
+  max-width: 120px;
+  height: auto;
+}
+
+#footer p {
+  font-size: 0.7rem;
+  font-family: 'Arial', cursive;
+}
+
+#Enviar{
+  font-size: 1rem;
+  width: 150px;
+}
+.banner{
+  display: none;
+}
+  }
+  
+  /*<<<<<<<<<479px-780px>>>>>>>>>*/
+  @media screen and (min-width: 479px) and (max-width: 780px) {
+    html #b-about,
+    html #b-contact {
+      scroll-behavior: smooth;
+    }
+  
+    /*Video element*/
+    .fullscreen-video-wrap video {
+      /*this configuration allows to auto-adjust video positions*/
+      left: 49.9%;
+      min-height: 100%;
+      min-width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+    }
+  .cover-logo{
+    width: 15rem;
+    height: auto;
+  }
+    .container {
+      overflow-x: hidden;
+    }
+
+    .cover-text{
+      display: none;
+    }
+    .cover-mobile{
+      min-width: 90%;
+    }
+  
+    .top-buttons a {
+      font-size: 1.2rem;
+      width: 11rem;
+      margin: 5% 0 ;
+    }
+  
+    /*menu*/
+    .main_menu {
+      display: none;
+    }
+  
+    .toggle {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 20px;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      color: #ffffff;
+    }
+
+    iframe{
+      max-width:300px ;
+      height: 170px;
+    }
+  
+  
+    #times {
+      font-size: 40px;
+      position: relative;
+      right: 25px;
+      top: 15px;
+    }
+  
+    .mobile_menu1 li,
+    .hamburguer-btn {
+      width: 100%;
+      list-style-type: none;
+      font-size: 40px;
+    }
+  
+    .hamburguer-btn .fa-bars i,
+    .hambueguer-btn .fa-times i {
+      position: relative;
+      right: 25px;
+      top: 15px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 40px;
+    }
+  
+    .mobile_menu1 a li {
+      text-align: center;
+      display: none;
+      font-size: 1.2rem;
+      margin: 0.1rem;
+    }
+  
+    .mobile_menu1 a li.active {
+      display: block;
+    }
+  
+    /*sections*/
+    .title {
+      font-size: 3rem;
+      margin: 0 0 1rem 0;
+    }
+  
+    .my_description p {
+      font-size: 1rem;
+      padding: 1.5rem;
+      margin: 0;
+    }
+  
+    #contact_me {
+      font-size: 1rem;
+      width: 130px;
+    }
+
+.media{
+  display: none;
+}
+
+.white2{
+  display: none;
+} 
+
+.white2-mobile{
+  display: block;
+  color: #fff;
+  height: 300px;
+} 
+.white-contact {
+display: none;}
+
+.white-mobile {
+  display: block;
+  color: #fff;
+  min-height: 350px;
+  padding: 1rem 0;
+  margin: 1rem 0;}
+
+.white {
+  max-height: 650px;
+  margin: 1rem 0 1rem 0;
+padding:  0.5rem 0;
+}
+
+.media-icons{
+  font-size: 4rem;
+  margin: auto;
+}
+
+#Instant{
+  max-width: 120px;
+  height: auto;
+}
+
+#footer p {
+  font-size: 0.7rem;
+  font-family: 'Arial', cursive;
+}
+
+#Enviar{
+  font-size: 1rem;
+  width: 150px;
+}
+.banner{
+  display: none;
+}
+  }
+  
+  /*HASTA 780PX SE APLICAN CAMBIOS AL SCROLL DE LOS ENLACES*/
+  
+  /*<<<<<<<<<781px-1000>>>>>>>>>*/
+  @media screen and (min-width: 781px) and (max-width: 900px) {
+    .container {
+      overflow-x: hidden;
+    }
+    html #b-about,
+    html #b-contact {
+      scroll-behavior: smooth;
+    }
+  
+    /*Video element*/
+    .fullscreen-video-wrap video {
+      /*this configuration allows to auto-adjust video positions*/
+      left: 49.9%;
+      min-height: 100%;
+      min-width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+    }
+  .cover-logo{
+    width: 18rem;
+    height: auto;
+  }
+    .container {
+      overflow-x: hidden;
+    }
+
+    .cover-text{
+      display: none;
+    }
+    .cover-mobile{
+      min-width: 100%;
+    }
+  
+    .top-buttons a {
+      font-size: 1.5rem;
+      width: 11rem;
+      margin: 5% 5% ;
+    }
+  
+    /*menu*/
+    .main_menu {
+      display: none;
+    }
+  
+    .toggle {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 20px;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      color: #ffffff;
+    }
+
+
+  
+    #times {
+      font-size: 40px;
+      position: relative;
+      right: 25px;
+      top: 15px;
+    }
+  
+    .mobile_menu1 li,
+    .hamburguer-btn {
+      width: 100%;
+      list-style-type: none;
+      font-size: 40px;
+    }
+  
+    .hamburguer-btn .fa-bars i,
+    .hambueguer-btn .fa-times i {
+      position: relative;
+      right: 25px;
+      top: 15px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 40px;
+    }
+  
+    .mobile_menu1 a li {
+      text-align: center;
+      display: none;
+      font-size: 1.2rem;
+      margin: 0.1rem;
+    }
+  
+    .mobile_menu1 a li.active {
+      display: block;
+    }
+  
+    /*sections*/
+    .title {
+      font-size: 3rem;
+      margin: 0 0 1rem 0;
+    }
+  
+    .my_description p {
+      font-size: 0.85rem;
+      padding: 1.5rem;
+      margin-top: 10%;
+    }
+
+    iframe{
+      max-width:370px ;
+      height: 210px;
+      margin-top: 10%;;
+    }
+  
+  
+    #contact_me {
+      font-size: 1rem;
+      width: 150px;
+    }
+
+.media{
+  display: none;
+}
+
+.white2{
+  display: none;
+} 
+
+.white2-mobile{
+  display: block;
+  color: #fff;
+  height: 300px;
+} 
+.white-contact {
+display: none;}
+
+.white-mobile {
+  display: block;
+  color: #fff;
+  min-height: 350px;
+  padding: 1rem 0;
+  margin: 1rem 0;}
+
+.white {
+  max-height: 650px;
+  margin: 1rem 0 1rem 0;
+padding:  0.5rem 0;
+}
+
+.media-icons{
+  font-size: 4rem;
+  margin: auto;
+}
+
+#Instant{
+  max-width: 120px;
+  height: auto;
+}
+
+#footer p {
+  font-size: 0.7rem;
+  font-family: 'Arial', cursive;
+}
+
+#Enviar{
+  font-size: 1.1rem;
+  width: 150px;
+}
+  
+.banner{
+  display: none;
+}
+  }
+  
+  /*<<<<<<<<<901px - 950px>>>>>>>>>*/
+  @media screen and (min-width: 901px) and (max-width: 950px) {
+    /*body*/
+    .container {
+      width: 100%;
+    }
+    html #b-about,
+    html #b-contact {
+      scroll-behavior: smooth;
+    }
+  
+    /*Video element*/
+    .fullscreen-video-wrap video {
+      /*this configuration allows to auto-adjust video positions*/
+      left: 49.9%;
+      min-height: 100%;
+      min-width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+    }
+  .cover-logo{
+    width: 19rem;
+    height: auto;
+  }
+    .container {
+      overflow-x: hidden;
+    }
+
+    .cover-text{
+      display: none;
+    }
+    .cover-mobile{
+      min-width: 100%;
+    }
+  
+    .top-buttons a {
+      font-size: 1.8rem;
+      width: 12rem;
+      margin: 5% 5% ;
+    }
+  
+    /*menu*/
+    .main_menu {
+      display: none;
+    }
+  
+    .toggle {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 20px;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      color: #ffffff;
+    }
+
+
+  
+    #times {
+      font-size: 40px;
+      position: relative;
+      right: 25px;
+      top: 15px;
+    }
+  
+    .mobile_menu1 li,
+    .hamburguer-btn {
+      width: 100%;
+      list-style-type: none;
+      font-size: 40px;
+    }
+  
+    .hamburguer-btn .fa-bars i,
+    .hambueguer-btn .fa-times i {
+      position: relative;
+      right: 25px;
+      top: 15px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 40px;
+    }
+  
+    .mobile_menu1 a li {
+      text-align: center;
+      display: none;
+      font-size: 1.2rem;
+      margin: 0.1rem;
+    }
+  
+    .mobile_menu1 a li.active {
+      display: block;
+    }
+  
+    /*sections*/
+    .title {
+      font-size: 3rem;
+      margin: 0 0 1rem 0;
+    }
+  
+    .my_description p {
+      font-size: 0.85rem;
+      padding: 1.5rem;
+      margin-top: 10%;
+    }
+
+    iframe{
+      max-width:370px ;
+      height: 210px;
+      margin-top: 10%;;
+    }
+  
+  
+    #contact_me {
+      font-size: 1rem;
+      width: 150px;
+    }
+
+.media{
+  display: none;
+}
+
+.white2{
+  display: none;
+} 
+
+.white2-mobile{
+  display: block;
+  color: #fff;
+  height: 300px;
+} 
+.white-contact {
+display: none;}
+
+.white-mobile {
+  display: block;
+  color: #fff;
+  min-height: 350px;
+  padding: 1rem 0;
+  margin: 1rem 0;}
+
+.white {
+  max-height: 650px;
+  margin: 1rem 0 1rem 0;
+padding:  0.5rem 0;
+}
+
+.media-icons{
+  font-size: 4rem;
+  margin: auto;
+}
+
+#Instant{
+  max-width: 120px;
+  height: auto;
+}
+
+#footer p {
+  font-size: 0.7rem;
+  font-family: 'Arial', cursive;
+}
+
+#Enviar{
+  font-size: 1.1rem;
+  width: 150px;
+}
+.banner{
+  display: none;
+}
+  }
+  
+  /*<<<<<<<<<951px - 985px>>>>>>>>>*/
+  @media screen and (min-width: 951px) and (max-width: 985px) {
+    html #b-about,
+    html #b-contact {
+      scroll-behavior: smooth;
+    }
+  
+    /*Video element*/
+    .fullscreen-video-wrap video {
+      /*this configuration allows to auto-adjust video positions*/
+      left: 49.9%;
+      min-height: 100%;
+      min-width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+    }
+  .cover-logo{
+    width: 19rem;
+    height: auto;
+  }
+    .container {
+      overflow-x: hidden;
+    }
+
+    .cover-text{
+      display: none;
+    }
+    .cover-mobile{
+      min-width: 100%;
+    }
+  
+    .top-buttons a {
+      font-size: 1.8rem;
+      width: 12rem;
+      margin: 5% 5% ;
+    }
+  
+    /*menu*/
+    .main_menu {
+      display: none;
+    }
+  
+    .toggle {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 20px;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      color: #ffffff;
+    }
+
+
+  
+    #times {
+      font-size: 40px;
+      position: relative;
+      right: 25px;
+      top: 15px;
+    }
+  
+    .mobile_menu1 li,
+    .hamburguer-btn {
+      width: 100%;
+      list-style-type: none;
+      font-size: 40px;
+    }
+  
+    .hamburguer-btn .fa-bars i,
+    .hambueguer-btn .fa-times i {
+      position: relative;
+      right: 25px;
+      top: 15px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 40px;
+    }
+  
+    .mobile_menu1 a li {
+      text-align: center;
+      display: none;
+      font-size: 1.2rem;
+      margin: 0.1rem;
+    }
+  
+    .mobile_menu1 a li.active {
+      display: block;
+    }
+  
+    /*sections*/
+    .title {
+      font-size: 3rem;
+      margin: 0 0 1rem 0;
+    }
+  
+    .my_description p {
+      font-size: 0.85rem;
+      padding: 1.5rem;
+      margin-top: 10%;
+    }
+
+    iframe{
+      max-width:370px ;
+      height: 210px;
+      margin-top: 10%;;
+    }
+  
+  
+    #contact_me {
+      font-size: 1rem;
+      width: 150px;
+    }
+
+
+.media{
+  display: none;
+}
+
+.white2{
+  display: none;
+} 
+
+.white2-mobile{
+  display: block;
+  color: #fff;
+  height: 300px;
+} 
+.white-contact {
+display: none;}
+
+.white-mobile {
+  display: block;
+  color: #fff;
+  min-height: 350px;
+  padding: 1rem 0;
+  margin: 1rem 0;}
+
+.white {
+  max-height: 650px;
+  margin: 1rem 0 1rem 0;
+padding:  0.5rem 0;
+}
+
+.media-icons{
+  font-size: 4rem;
+  margin: auto;
+}
+
+#Instant{
+  max-width: 120px;
+  height: auto;
+}
+
+#footer p {
+  font-size: 0.7rem;
+  font-family: 'Arial', cursive;
+}
+
+#Enviar{
+  font-size: 1.1rem;
+  width: 150px;
+}
+
+  }
+  
+  /*<<<<<<<<<986px - 1290px>>>>>>>>>*/
+  @media screen and (min-width: 986px) and (max-width: 1290px) {
+
+.cover-text{
+  font-size: 2.2rem;
+  margin-top:55%;
+  font-family: 'Passion One', cursive;
+}
+
+.cover-logo{
+  max-width: 18rem;
+  height: auto;
+  opacity: 0.85;
+}
+
+
+.button {
+  background: #003c8f;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 1rem;
+  width: 180px;
+}
+
+
+.button:hover {
+  text-decoration: none;
+  background: transparent;
+  border: solid 4px #fff;
+  color: #fff;
+}
+
+
+.media-button {
+  background: #000;
+  color: #fff;
+  font-size: 2rem;
+  margin: 2rem;
+  border-radius: 80px;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Orbitron', cursive;
+  border: solid;
+  border-color: #000;
+  padding: 0.5rem;
+  width: 250px;
+}
+
+.media-button:hover {
+  text-decoration: none;
+  background: transparent;
+  border-color: #fff;
+  border: solid 3px;
+  color: #fff;
+}
+
+/*MENU BAR*/
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.main_menu {
+  list-style: none;
+  overflow: hidden;
+  background: #000;
+}
+
+
+.secondary_menu {
+  list-style: none;
+  overflow: hidden;
+  background: #000;
+}
+
+nav li {
+  float:left;
+  color: #fff;
+  margin: 0;
+  font-family: 'Orbitron', cursive;
+  padding: 1rem;
+  display: inline-block;
+  text-align: center;
+  width: 10rem; /*quitar width en modo responsivo*/
+}
+
+.menu a {
+  text-align: center;
+  text-decoration: none;
+  position: sticky;
+}
+
+ul li:hover {
+  transition: 0.2s ease;
+  background: #fff;
+  color: #003c8f;
+  font-weight: bolder;
+}
+
+.toggle {
+  display: none;
+}
+
+/*sections*/
+.title {
+  font-family: 'Passion One', cursive;
+  font-size: 5rem;
+  width: 100%;
+  align-content: center;
+  margin: 0.5rem 0 4rem 0;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.35rem;
+  font-family: 'Orbitron', cursive;
+}
+
+
+/*About*/
+.my_description p {
+  font-size: 1rem;
+  padding: 1.5rem;
+  margin-top: 0;
+}
+
+#contact_me {
+  font-size: 1rem;
+  width: 150px;
+  margin: 0;
+}
+
+
+.white {
+  color: #fff;
+  min-height: 350px;
+  padding: 2rem 0;
+  margin: 2rem 0;}
+
+  .white-contact {
+    color: #fff;
+    min-height: 350px;
+    padding: 2rem 0;
+    margin: 2rem 0;}
+
+  .white2 {
+    color: #fff;
+    height: 350px;
+    padding: 2rem 0 0;
+    margin: 2rem 0 0;}
+
+.media-mobile{
+display: none;
+}
+
+.white2-mobile{
+display: none;
+}
+
+.white-mobile{
+display: none;
+}
+.contact-mobile{
+display: none;
+}
+.media-icons{
+  font-size: 5rem;
+  text-align: center;
+}
+
+.banner{
+  margin-top: 5%;
+}
+
+.banner img{
+  width: 15rem;
+  height: auto;
+}
+
+#instabanner{
+  margin: -5rem 4rem;
+  padding: none;
+  width: 350px;
+  height: 350px;
+}
+}
+  
+  /*<<<<<<<<<1290px - 1366px>>>>>>>>>*/
+  @media screen and (min-width: 1290px) and (max-width: 1366px) {
+    .cover-text{
+      font-size: 3rem;
+      margin-top:25%;
+      font-family: 'Passion One', cursive;
+    }
+    
+    .cover-logo{
+      max-width: 20rem;
+      height: auto;
+      opacity: 0.85;
+    }
+    
+    
+    .button {
+      font-size: 1.5rem;
+      margin: 1rem;
+      width: 220px;
+    }
+
+    /*About*/
+    .my_description p {
+      font-size: 1.3rem;
+      padding: 1.5rem;
+      margin-top: 5%;
+    }
+    
+    #contact_me {
+      font-size: 1.2rem;
+      width: 180px;
+      margin: 0;
+    }
+    
+    .banner{
+      margin-top: 2%;
+    }
+    .banner img{
+      width: 18rem;
+      height: auto;
+    }
+
+    #instabanner{
+      margin: -3rem 4rem;
+      padding: none;
+      width: 350px;
+      height: 350px;
+    }
+  }
+  
+  
+  /*<<<<<<<<<1366px - morepx>>>>>>>>>*/
+  @media screen and (min-width: 1367px) {
+    .cover-text{
+      font-size: 3.5rem;
+      margin-top:45%;
+      font-family: 'Passion One', cursive;
+    }
+    
+    .cover-logo{
+      max-width: 30rem;
+      height: auto;
+      opacity: 0.85;
+    }
+    
+    
+    .button {
+      font-size: 1.8rem;
+      margin: 1rem;
+      width: 250px;
+    }
+
+    /*About*/
+    .my_description p {
+      font-size: 1.3rem;
+      padding: 1.5rem;
+      margin-top: 5%;
+    }
+    
+    #contact_me {
+      font-size: 1.2rem;
+      width: 180px;
+      margin: 0;
+    }
+
+    
+    iframe{
+      width:550px ;
+      height: 425px;
+      margin:0;
+      padding: none;
+    }
+    
+    #instabanner{
+      margin: -2rem 4rem;
+      padding: none;
+      height: 350px;
+      width: 350px;
+    }
+  }
+  
