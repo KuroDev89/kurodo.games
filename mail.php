@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['submit'])){
-$destino="aurelio.dc.89@gmail.com";
+$destino="kurogames89@gmail.com";
 $nombre=$_POST["first_name"];
 $correo=$_POST["email"];
 $mesage=$_POST["message"];
