@@ -7,30 +7,14 @@
     }
   
     /*Video element*/
-    .fullscreen-video-wrap video {
-      /*this configuration allows to auto-adjust video positions*/
-      left: 49.9%;
-      min-height: 100%;
-      min-width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      overflow: hidden;
-    }
-  .cover-logo{
-    width: 15rem;
-    height: auto;
-  }
-    .container {
-      overflow-x: hidden;
-    }
 
-    .cover-text{
-      display: none;
-    }
-    .cover-mobile{
-      min-width: 90%;
-    }
+  .cover-logo{
+    width: 20px;
+    padding: 1rem 4rem 0 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   
     .top-buttons a {
       font-size: 1.2rem;
@@ -52,6 +36,7 @@
       box-sizing: border-box;
       color: #ffffff;
     }
+
 
     iframe{
       max-width:300px ;
@@ -172,29 +157,11 @@ padding:  0.5rem 0;
     }
   
     /*Video element*/
-    .fullscreen-video-wrap video {
-      /*this configuration allows to auto-adjust video positions*/
-      left: 49.9%;
-      min-height: 100%;
-      min-width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      overflow: hidden;
-    }
-  .cover-logo{
-    width: 15rem;
-    height: auto;
-  }
-    .container {
-      overflow-x: hidden;
-    }
-
-    .cover-text{
-      display: none;
-    }
-    .cover-mobile{
-      min-width: 90%;
+    .cover-logo{
+      width: 20px;
+      padding: 1rem 3.5rem 0 0;
+      margin-left: auto;
+      margin-right: auto;
     }
   
     .top-buttons a {
@@ -337,31 +304,12 @@ padding:  0.5rem 0;
     }
   
     /*Video element*/
-    .fullscreen-video-wrap video {
-      /*this configuration allows to auto-adjust video positions*/
-      left: 49.9%;
-      min-height: 100%;
-      min-width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      overflow: hidden;
+    .cover-logo{
+      width: 20px;
+      padding: 1rem 1.5rem 0 0;
+      margin-left: auto;
+      margin-right: auto;
     }
-  .cover-logo{
-    width: 15rem;
-    height: auto;
-  }
-    .container {
-      overflow-x: hidden;
-    }
-
-    .cover-text{
-      display: none;
-    }
-    .cover-mobile{
-      min-width: 90%;
-    }
-  
     .top-buttons a {
       font-size: 1.2rem;
       width: 11rem;
@@ -502,29 +450,11 @@ padding:  0.5rem 0;
     }
   
     /*Video element*/
-    .fullscreen-video-wrap video {
-      /*this configuration allows to auto-adjust video positions*/
-      left: 49.9%;
-      min-height: 100%;
-      min-width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      overflow: hidden;
-    }
-  .cover-logo{
-    width: 15rem;
-    height: auto;
-  }
-    .container {
-      overflow-x: hidden;
-    }
-
-    .cover-text{
-      display: none;
-    }
-    .cover-mobile{
-      min-width: 90%;
+    .cover-logo{
+      width: 20px;
+      padding: 1rem 0 0 1rem;
+      margin-left: auto;
+      margin-right: auto;
     }
   
     .top-buttons a {
@@ -672,31 +602,12 @@ padding:  0.5rem 0;
     }
   
     /*Video element*/
-    .fullscreen-video-wrap video {
-      /*this configuration allows to auto-adjust video positions*/
-      left: 49.9%;
-      min-height: 100%;
-      min-width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      overflow: hidden;
-    }
-  .cover-logo{
-    width: 18rem;
-    height: auto;
-  }
-    .container {
-      overflow-x: hidden;
+    .cover-logo{
+      width: 20px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    .cover-text{
-      display: none;
-    }
-    .cover-mobile{
-      min-width: 100%;
-    }
-  
     .top-buttons a {
       font-size: 1.5rem;
       width: 11rem;
@@ -845,29 +756,10 @@ padding:  0.5rem 0;
     }
   
     /*Video element*/
-    .fullscreen-video-wrap video {
-      /*this configuration allows to auto-adjust video positions*/
-      left: 49.9%;
-      min-height: 100%;
-      min-width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      overflow: hidden;
-    }
-  .cover-logo{
-    width: 19rem;
-    height: auto;
-  }
-    .container {
-      overflow-x: hidden;
-    }
-
-    .cover-text{
-      display: none;
-    }
-    .cover-mobile{
-      min-width: 100%;
+     .cover-logo{
+      width: 50px;
+      margin-left: auto;
+      margin-right: auto;
     }
   
     .top-buttons a {
@@ -1013,29 +905,10 @@ padding:  0.5rem 0;
     }
   
     /*Video element*/
-    .fullscreen-video-wrap video {
-      /*this configuration allows to auto-adjust video positions*/
-      left: 49.9%;
-      min-height: 100%;
-      min-width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      overflow: hidden;
-    }
-  .cover-logo{
-    width: 19rem;
-    height: auto;
-  }
-    .container {
-      overflow-x: hidden;
-    }
-
-    .cover-text{
-      display: none;
-    }
-    .cover-mobile{
-      min-width: 100%;
+    .cover-logo{
+      width: 20px;
+      margin-left: auto;
+      margin-right: auto;
     }
   
     .top-buttons a {
@@ -1175,34 +1048,20 @@ padding:  0.5rem 0;
   /*<<<<<<<<<986px - 1290px>>>>>>>>>*/
   @media screen and (min-width: 986px) and (max-width: 1290px) {
 
-.cover-text{
-  font-size: 2.2rem;
-  margin-top:55%;
-  font-family: 'Passion One', cursive;
-}
-
-.cover-logo{
-  max-width: 18rem;
-  height: auto;
-  opacity: 0.85;
-}
+    .cover-logo{
+      width: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 
 .button {
-  background: #003c8f;
-  color: #fff;
+
   font-size: 1.2rem;
   margin: 1rem;
   width: 180px;
 }
 
-
-.button:hover {
-  text-decoration: none;
-  background: transparent;
-  border: solid 4px #fff;
-  color: #fff;
-}
 
 
 .media-button {
@@ -1344,9 +1203,6 @@ display: none;
   text-align: center;
 }
 
-.banner{
-  margin-top: 5%;
-}
 
 .banner img{
   width: 15rem;
@@ -1362,24 +1218,21 @@ display: none;
 }
   
   /*<<<<<<<<<1290px - 1366px>>>>>>>>>*/
-  @media screen and (min-width: 1290px) and (max-width: 1366px) {
-    .cover-text{
-      font-size: 3rem;
-      margin-top:25%;
-      font-family: 'Passion One', cursive;
-    }
-    
-    .cover-logo{
-      max-width: 20rem;
-      height: auto;
-      opacity: 0.85;
-    }
-    
-    
+  @media screen and (min-width: 1290px) and (max-width: 1366px) {    
     .button {
       font-size: 1.5rem;
       margin: 1rem;
       width: 220px;
+    }
+    
+    .cover-logo{
+      width: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .top-buttons{
+      margin-top: 25rem;
     }
 
     /*About*/
@@ -1419,14 +1272,10 @@ display: none;
       margin-top:45%;
       font-family: 'Passion One', cursive;
     }
-    
-    .cover-logo{
-      max-width: 30rem;
-      height: auto;
-      opacity: 0.85;
-    }
-    
-    
+
+.top-buttons{
+  margin-top: 35rem;
+}
     .button {
       font-size: 1.8rem;
       margin: 1rem;
